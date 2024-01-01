@@ -1,0 +1,23 @@
+{
+  "name": "practice1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx tailwindcss -i src/style.css -o public/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyushMahatara/css-tailwind-pra.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AyushMahatara/css-tailwind-pra/issues"
+  },
+  "homepage": "https://github.com/AyushMahatara/css-tailwind-pra#readme",
+  "dependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
