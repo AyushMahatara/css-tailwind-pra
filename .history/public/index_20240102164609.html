@@ -1,0 +1,112 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="text-grey-600">
+    <div class="grid grid-cols-3">
+      <div class="px-16">
+        <nav>
+          <div>
+            <h1 class="font-bold text-6xl uppercase text-center p-5">
+              <a href="/">Food </a>
+            </h1>
+          </div>
+          <ul>
+            <li>
+              <a href="#">
+                <span>Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>About</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Contact</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <main class="py-6 px-16 bg-pink-50">
+        <div class="flex justify-center md:justify-end">
+          <a href="#" class="text-orange-500">Log in</a>
+          <a href="#" class="text-orange-500 ml-5">Sign up</a>
+        </div>
+
+        <header>
+          <h2 class="text-2xl font-bold">Recipes</h2>
+          <h3 class="pt-3">For Ninjas</h3>
+        </header>
+
+        <div>
+          <h4 class="mt-12 border-b grey-600">Latest Recipes</h4>
+
+          <div class="grid md:grid-cols-3 gap-10">
+            <!-- cards go here -->
+            <div class="card">
+              <img
+                src="img/stew.jpg"
+                alt="stew"
+                class="w-full h-32 sm:h-48 object-cover"
+              />
+              <div class="m-4">
+                <span class="font-bold">5 Bean Chili Stew</span>
+                <span class="block text-sm">Recipe by Mario</span>
+              </div>
+              <div class="badge">
+                <span>25 min</span>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                src="img/stew.jpg"
+                alt="stew"
+                class="w-full h-32 sm:h-48 object-cover"
+              />
+              <div class="m-4">
+                <span class="font-bold">5 Bean Chili Stew</span>
+                <span class="block text-sm">Recipe by Mario</span>
+              </div>
+              <div class="badge">
+                <span>25 min</span>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                src="img/stew.jpg"
+                alt="stew"
+                class="w-full h-32 sm:h-48 object-cover"
+              />
+              <div class="m-4">
+                <span class="font-bold">5 Bean Chili Stew</span>
+                <span class="block text-sm">Recipe by Mario</span>
+              </div>
+              <div class="badge">
+                <span>25 min</span>
+              </div>
+            </div>
+          </div>
+
+          <h4 class="mt-12 border-b grey-600">Most Popular</h4>
+
+          <div>
+            <!-- cards go here -->
+          </div>
+        </div>
+
+        <div class="rounded-full flex justify-end">
+          <div class="bg-red-100 mt-4">Load more</div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
